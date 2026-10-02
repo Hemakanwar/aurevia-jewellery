@@ -13,7 +13,7 @@ export default function BraceletsLayout({ children }: { children: React.ReactNod
       <CategoryHero 
         title="Bracelets"
         description="From delicate everyday styles to statement pieces, discover bracelets for every occasion."
-        image="/images/bracelets/bracelets-hero.jpg"
+        image="/aurevia-jewellery/images/bracelets/bracelets-hero.jpg"
         breadcrumbBase="Home"
         breadcrumbBaseHref="/"
         breadcrumbCurrent="Bracelets"

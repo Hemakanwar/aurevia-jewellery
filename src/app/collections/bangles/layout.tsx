@@ -13,7 +13,7 @@ export default function BanglesLayout({ children }: { children: React.ReactNode 
       <CategoryHero 
         title="Bangles"
         description="From timeless classics to contemporary stacks, discover bangles crafted for every celebration."
-        image="/images/bangles/bangles-hero.jpg"
+        image="/aurevia-jewellery/images/bangles/bangles-hero.jpg"
         breadcrumbBase="Home"
         breadcrumbBaseHref="/"
         breadcrumbCurrent="Bangles"

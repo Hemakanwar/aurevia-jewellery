@@ -13,7 +13,7 @@ export default function NecklacesLayout({ children }: { children: React.ReactNod
       <CategoryHero 
         title="Necklaces"
         description="From everyday elegance to grand celebrations, discover necklaces for every occasion."
-        image="/images/necklaces/gold.jpg" // Using gold necklace as a premium fallback hero
+        image="/aurevia-jewellery/images/necklaces/gold.jpg" // Using gold necklace as a premium fallback hero
         breadcrumbBase="Home"
         breadcrumbBaseHref="/"
         breadcrumbCurrent="Necklaces"

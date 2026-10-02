@@ -13,7 +13,7 @@ export default function BridalLayout({ children }: { children: React.ReactNode }
       <CategoryHero 
         title="Bridal Sets"
         description="From traditional heirlooms to modern bridal ensembles, discover complete jewellery sets crafted for your special day."
-        image="/images/bridal/bridal-hero.jpg"
+        image="/aurevia-jewellery/images/bridal/bridal-hero.jpg"
         breadcrumbBase="Home"
         breadcrumbBaseHref="/"
         breadcrumbCurrent="Bridal Sets"

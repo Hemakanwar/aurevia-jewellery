@@ -13,7 +13,7 @@ export default function RingsLayout({ children }: { children: React.ReactNode })
       <CategoryHero 
         title="Rings"
         description="From timeless classics to modern statements, discover rings for every moment."
-        image="/images/rings/rings-hero.jpg"
+        image="/aurevia-jewellery/images/rings/rings-hero.jpg"
         breadcrumbBase="Home"
         breadcrumbBaseHref="/"
         breadcrumbCurrent="Rings"

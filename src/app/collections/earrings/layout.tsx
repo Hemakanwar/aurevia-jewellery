@@ -13,7 +13,7 @@ export default function EarringsLayout({ children }: { children: React.ReactNode
       <CategoryHero 
         title="Earrings"
         description="From everyday elegance to statement pieces, discover earrings for every occasion."
-        image="/images/earrings/earrings-hero.jpg"
+        image="/aurevia-jewellery/images/earrings/earrings-hero.jpg"
         breadcrumbBase="Home"
         breadcrumbBaseHref="/"
         breadcrumbCurrent="Earrings"
