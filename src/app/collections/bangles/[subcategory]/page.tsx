@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { bangleCategories } from "@/data/bangleCategories";
 import { products } from "@/data/products";
@@ -52,11 +53,7 @@ export default async function SubcategoryPage({ params }: SubcategoryPageProps) 
       
       {/* Show the category image as a small banner for the subcategory */}
       <div className="w-full h-[150px] md:h-[200px] relative rounded-xl overflow-hidden mb-8">
-        <img 
-          src={category.image} 
-          alt={category.name}
-          className="w-full h-full object-cover object-center"
-        />
+        <Image src={category.image} alt={category.name} fill className="object-cover object-center" />
         <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
           <h3 className="text-white text-2xl md:text-4xl font-serif">{category.name}</h3>
         </div>
