@@ -43,7 +43,7 @@ export function Hero() {
           <div className="relative w-full h-full max-h-[80%] max-w-[800px] flex items-center justify-end">
             {!error ? (
               <Image
-                src="/images/hero/jewellery-hero.jpg" 
+                src="/aurevia-jewellery/images/hero/jewellery-hero.jpg"
                 alt="Premium Jewellery Collection"
                 fill
                 className="object-contain object-right"
